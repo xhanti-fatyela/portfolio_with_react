@@ -57,7 +57,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Xhanti-Lomzi`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Xhanti-Lomzi`} <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Web Developer" ]'><span className="wrap">{text}</span></span></h1>
                 <p>My Name is Xhanti Fatyela I Live in Khayelitsha, I am always energetic and eager to learn new skills, Being in Software Development Isn’t quite the same as being a Graphic Designer or Fine Artist, but that that doesn’t mean it’s not creative in its own way, There are many ways in which Software Development can be creative, including in the way you think to solve a problem, for example, you need to be able to put yourself in the clients’ shoes in order to provide a solution, you need to create innovative new systems and functionality and you get to play around and learn new technologies and that is what interests me Dev, I enjoy Front Dev and Backend Dev,  I still want to learn more languages Like  Java and C# 
         </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
