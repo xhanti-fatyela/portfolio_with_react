@@ -7,7 +7,11 @@ const port = process.env.PORT || 4000;
 
 // server used to send send emails
 const app = express();
-app.use(cors());
+
+app.options('*',cors())
+app.use(cors(
+   
+));
 app.use(express.json());
 app.use("/", router);
 app.listen(port, () => console.log("Server Running"));
