@@ -21,6 +21,8 @@ export const Footer = () => {
               <a href="https://github.com/xhanti-fatyela"><img src={navIcon2} alt="Icon" /></a>
           
             </div>
+            <p>Call/Whatsapp: 0603466352</p>
+            <p>Email: xhantifatyela00@gmail.com</p>
             <p>Thank you for attention</p>
           </Col>
         </Row>

@@ -4,7 +4,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/forth project.jpg";
 import projImg2 from "../assets/img/second work.jpg";
 import projImg3 from "../assets/img/project1.jpg";
-import projImg4 from "../assets/img/first work.jpg";
+import projImg4 from "../assets/img/2.png";
 import projImg5 from "../assets/img/fifth work.jpg";
 import projImg6 from "../assets/img/12345.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -16,7 +16,7 @@ export const Projects = () => {
   const projects = [
     {
       
-      description: <a href="https://myonline-store.herokuapp.com/">"Online Shopping Store"</a>,
+      description: <a href="https://eccormece.vercel.app/login">"Online Shopping Store"</a>,
       imgUrl: projImg1,
     },
     {
@@ -27,10 +27,10 @@ export const Projects = () => {
       description: <a href="https://clinquant-haupia-cc8e1b.netlify.app/">"Flappy Bird Demo"</a>,
       imgUrl: projImg3,
     },
-    // {
-    //   description: "Design & Development",
-    //   imgUrl: projImg4,
-    // },
+    {
+      description: <a href="https://www.hurumabantfu.com/">"Huruma Bantfu"</a>,
+      imgUrl: projImg4,
+    }
     // {
     //   description: "Design & Development",
     //   imgUrl: projImg5,
